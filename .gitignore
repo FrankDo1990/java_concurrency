@@ -2,4 +2,4 @@
 *.class
 #idea file
 *.iml
-idea/
+idea/*
