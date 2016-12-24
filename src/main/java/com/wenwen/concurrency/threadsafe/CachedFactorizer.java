@@ -1,7 +1,7 @@
-package com.wenwen.jcip.threadsafe;
+package com.wenwen.concurrency.threadsafe;
 
-import com.wenwen.jcip.annotations.GuardedBy;
-import com.wenwen.jcip.annotations.ThreadSafe;
+import com.wenwen.concurrency.annotations.GuardedBy;
+import com.wenwen.concurrency.annotations.ThreadSafe;
 
 import javax.servlet.*;
 import java.io.IOException;

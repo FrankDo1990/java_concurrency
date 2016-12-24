@@ -1,4 +1,4 @@
-package com.wenwen.jcip.annotations;
+package com.wenwen.concurrency.annotations;
 
 import java.lang.annotation.*;
 

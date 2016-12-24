@@ -1,4 +1,4 @@
-package com.wenwen.jcip.threadsafe;
+package com.wenwen.concurrency.threadsafe;
 
 import javax.servlet.*;
 import java.io.IOException;
