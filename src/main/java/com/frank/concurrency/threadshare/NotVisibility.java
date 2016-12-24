@@ -1,4 +1,4 @@
-package com.wenwen.concurrency.threadshare;
+package com.wenwen.jcip.threadshare;
 
 /**
  * Created by dufeng on 2016/11/4.
