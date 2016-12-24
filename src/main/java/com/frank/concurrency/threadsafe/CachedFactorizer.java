@@ -1,7 +1,7 @@
-package com.wenwen.jcip.threadsafe;
+package com.frank.concurrency.threadsafe;
 
-import com.wenwen.jcip.annotations.GuardedBy;
-import com.wenwen.jcip.annotations.ThreadSafe;
+import com.frank.concurrency.annotations.GuardedBy;
+import com.frank.concurrency.annotations.ThreadSafe;
 
 import javax.servlet.*;
 import java.io.IOException;

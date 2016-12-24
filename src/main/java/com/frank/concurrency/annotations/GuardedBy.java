@@ -8,7 +8,7 @@
  * must include this copyright and license notice.
  */
 
-package com.wenwen.jcip.annotations;
+package com.frank.concurrency.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
