@@ -24,7 +24,7 @@ public class CachedFactorizer extends MyServlet{
         BigInteger[] factors = null;
         synchronized (this){
             ++hits;
-            if (lastNumber == i){
+            if (lastNumber.longValue() == i.longValue()){
                 ++cacheHits;
                 factors = lastFactors.clone();
             }
