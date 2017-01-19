@@ -10,6 +10,8 @@ public class ConcurrencyProblems001 {
     public static final int MAX_QPS = 10;
     public static final int MAX_EXECUTE_TIME = 100;
     public static  int preRpc = MAX_EXECUTE_TIME;
+    public static Semaphore semaphore = new Semaphore(MAX_QPS);
+
     public static final CountDownLatch latch = new CountDownLatch(MAX_EXECUTE_TIME);
 
     public static void main(String...args){
@@ -30,8 +32,7 @@ public class ConcurrencyProblems001 {
     }
     public static void solution1(){
         //信号量同步
-        Semaphore semaphore = new Semaphore(MAX_QPS);
-        //每50s释放一半信号量
+        //每1s释放信号量
         Executors.newScheduledThreadPool(1).scheduleAtFixedRate(new Runnable() {
             @Override
             public void run() {
