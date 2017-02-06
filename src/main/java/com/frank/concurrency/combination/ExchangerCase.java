@@ -30,7 +30,7 @@ public class ExchangerCase {
     }
 
     class Consumer implements Runnable{
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<Integer>();
         @Override
         public void run() {
             for (int i = 0; i < 10; i++){

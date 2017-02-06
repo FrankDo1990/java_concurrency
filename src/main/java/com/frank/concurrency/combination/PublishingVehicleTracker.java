@@ -18,7 +18,7 @@ public class PublishingVehicleTracker {
     private final Map<String, ThreadSafePoint> unmodified;
 
     public PublishingVehicleTracker(ConcurrentMap<String, ThreadSafePoint> locations) {
-        this.locations = new ConcurrentHashMap<>(locations);
+        this.locations = new ConcurrentHashMap<String, ThreadSafePoint>(locations);
         unmodified = Collections.unmodifiableMap(this.locations);
     }
 
