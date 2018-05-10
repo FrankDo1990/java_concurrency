@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 llll
 =======
 <<<<<<< HEAD
@@ -6,4 +7,7 @@ rebase master i2
 =======
 issue v122:x2
 >>>>>>> master file master.v4
+>>>>>>> master file master.v4
+=======
+rebase i2 i1
 >>>>>>> master file master.v4
